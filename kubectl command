@@ -1,0 +1,20 @@
+aws eks update-kubeconfig --region us-east-1 --name devendra-eks
+
+
+kubectl get nodes
+
+create
+
+kubectl apply -f nginx-pod.yaml
+
+
+kubectl get pods
+
+kubectl describe pod nginx-pod
+
+
+~/nginx$ kubectl apply -f nginx.yaml -f nginx_service.yaml
+
+nginx$ kubectl get service
+
+
